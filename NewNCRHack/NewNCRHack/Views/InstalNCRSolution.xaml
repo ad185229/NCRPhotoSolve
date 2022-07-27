@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               
+             x:Class="NewNCRHack.Views.InstalNCRSolution">
+
+    
+    <ContentPage.Content>
+        
+        <ScrollView>
+            <Grid
+                ColumnSpacing="5"
+                RowDefinitions="Auto, *"
+                RowSpacing="0">
+
+
+                <!--  Title View  -->
+                <StackLayout>
+                    <Label
+                        Margin="18,10,10,11"
+                        FontFamily="Montserrat-Bold"
+                        FontSize="20"
+                        x:Name="MyName1"
+                        HorizontalOptions="Start"
+                        Text="Hey!! we found the below solutions from our knowledge base"
+                        TextColor="{DynamicResource Gray-900}" />
+
+                    <Image x:Name="img"  
+                           Source="Step1.png"
+                           HeightRequest="50"
+                           Margin="22,40,110,0" 
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"></Image>
+                    <Label Margin="80, -50,10,0"
+                        FontFamily="Montserrat-Bold"
+                        FontSize="14"
+                        x:Name="MyName"
+                        Text="Make sure your Tender data flowed from CCM to STS"
+                        TextColor="{DynamicResource Gray-900}" />
+                </StackLayout>
+                <StackLayout>
+                    <Image x:Name="img2"  
+                           Source="Step2.png"
+                           HeightRequest="50"
+                           Margin="20, 260,0,0" 
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"></Image>
+                    
+                    <Label Margin="80, -50,0, 0"
+                        FontFamily="Montserrat-Bold"
+                        FontSize="14"
+                        x:Name="MyName2"
+                        Text="If you dont see data in tender, please run Tender RTI's manually"
+                        TextColor="{DynamicResource Gray-900}" />
+
+                </StackLayout>
+
+
+                <StackLayout>
+                    <Image x:Name="img3"  
+                           Source="Step3.png"
+                           HeightRequest="50"
+                           Margin="20, 380,0,0" 
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"></Image>
+
+                    <Label Margin="80, -50,0, 0"
+                        FontFamily="Montserrat-Bold"
+                        FontSize="14"
+                        x:Name="MyName6"
+                        Text="After running the RTI, trying adding the tender from POS"
+                        TextColor="{DynamicResource Gray-900}" />
+
+                </StackLayout>
+
+                <StackLayout>
+                    <Image x:Name="img4"  
+                           Source="Step4.png"
+                           HeightRequest="50"
+                           Margin="20, 510,0,0" 
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"></Image>
+
+                    <Label Margin="80, -50,0, 0"
+                        FontFamily="Montserrat-Bold"
+                        FontSize="14"
+                        x:Name="MyName7"
+                        Text="By now you issues should be fixed!, Happy Good Day!!"
+                        TextColor="{DynamicResource Gray-900}" />
+
+                </StackLayout>
+
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack.iOS\\NewNCRHack.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack.iOS\\NewNCRHack.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack.iOS\\NewNCRHack.iOS.csproj",
+        "projectName": "NewNCRHack.iOS",
+        "projectPath": "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack.iOS\\NewNCRHack.iOS.csproj",
+        "packagesPath": "C:\\Users\\ad185229\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ad185229\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\azurepack": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack\\NewNCRHack.csproj": {
+                "projectPath": "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack\\NewNCRHack.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack\\NewNCRHack.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack\\NewNCRHack.csproj",
+        "projectName": "NewNCRHack",
+        "projectPath": "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack\\NewNCRHack.csproj",
+        "packagesPath": "C:\\Users\\ad185229\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ad185229\\Source\\Repos\\NewNCRHack\\NewNCRHack\\NewNCRHack\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ad185229\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\azurepack": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.ProjectOxford.Vision": {
+              "target": "Package",
+              "version": "[1.0.393, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2-beta1, )"
+            },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.2.0.38, )"
+            },
+            "Syncfusion.Xamarin.Core": {
+              "target": "Package",
+              "version": "[20.2.0.38, )"
+            },
+            "Syncfusion.Xamarin.SfComboBox": {
+              "target": "Package",
+              "version": "[20.2.0.38, )"
+            },
+            "Syncfusion.Xamarin.SfListView": {
+              "target": "Package",
+              "version": "[20.2.0.38, )"
+            },
+            "Syncfusion.Xamarin.SfRating": {
+              "target": "Package",
+              "version": "[20.2.0.38, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2478, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

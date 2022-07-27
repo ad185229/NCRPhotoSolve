@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary
+    x:Class="NewNCRHack.Themes.DarkTheme"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:styles="clr-namespace:NewNCRHack.Styles">
+
+    <ResourceDictionary.MergedDictionaries>
+        <styles:ButtonStyles />
+        <styles:LabelStyles />
+        <styles:BorderStyles />
+        <styles:ComboBoxStyles />
+        <styles:ListViewStyles />
+        <styles:RatingStyles />
+        <styles:BoxViewStyles />
+        <styles:AvatarViewStyles />
+        <styles:EntryStyles />
+        <styles:FontIcons />
+        <styles:Colors />
+        <styles:EditorStyles />
+        <styles:FrameStyles />
+        <styles:GradientViewStyles />
+        <styles:RadioButtonStyles />
+        <styles:SegmentedControlStyles />
+        <styles:TextInputLayoutStyles />
+        <styles:CheckBoxStyles />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Color x:Key="PrimaryColor">#ff4a4a</Color>
+    <Color x:Key="PrimaryDarkColor">#2A89FF</Color>
+    <Color x:Key="PrimaryDarkenColor">#ff4a4a</Color>
+    <Color x:Key="PrimaryLighterColor">#ff4a4a</Color>
+    <Color x:Key="PrimaryGradient">#ff4a4a</Color>
+    <Color x:Key="PrimaryLight">#A4CDFF</Color>
+    <Color x:Key="SecondaryGradient">#ff4a4a</Color>
+    <Color x:Key="Secondary">#ff4a4a</Color>
+    <Color x:Key="Green">#7ED321</Color>
+    <Color x:Key="Red">#FF4A4A</Color>
+    <Color x:Key="Orange">#FF844A</Color>
+    <Color x:Key="Blue">#ff4a4a</Color>
+    <Color x:Key="HyperLink">#ff4a4a</Color>
+
+    <Color x:Key="Gray-100">#333942</Color>
+    <Color x:Key="Gray-200">#454D59</Color>
+    <Color x:Key="Gray-300">#57616F</Color>
+    <Color x:Key="Gray-400">#656F81</Color>
+    <Color x:Key="Gray-500">#737E91</Color>
+    <Color x:Key="Gray-600">#848E9F</Color>
+    <Color x:Key="Gray-700">#9BA3B1</Color>
+    <Color x:Key="Gray-800">#BDC3CB</Color>
+    <Color x:Key="Gray-900">#EBEDEF</Color>
+    <Color x:Key="Gray-Bg">#2F343C</Color>
+    <Color x:Key="Gray-Black">#000000</Color>
+    <Color x:Key="Gray-White">#ffffff</Color>
+    <Color x:Key="GrayShadowColor">#333942</Color>
+    <Color x:Key="GrayShadowBackgroundColor">#2F343C</Color>
+
+</ResourceDictionary>
